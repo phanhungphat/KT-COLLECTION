@@ -1,0 +1,127 @@
+/*! header && thanh navigation  */
+
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+header {
+    background: #111111;
+    color: #fff
+}
+
+nav {
+    background-color: #111111;
+}
+
+.left-side, .right-side {
+    height: 100vh
+}
+
+/* .navbar-transparent {
+    background: transparent
+} */
+
+.navbar-nav>li>a {
+    color: #fff
+}
+
+.navbar-nav>li:hover {
+    border-radius: 10px;
+    border: 1px solid red;
+    /* border-bottom: 1px solid #fff; */
+    border-color: #ce0000;
+    background-color: #33CC33;
+}
+
+/* .navbar-nav>li>#nav-link:hover {
+    color: #ce0000;
+} */
+
+#navbarSupportedContent>.navbar-nav>.nav-item>.nav-link:hover {
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.navbar-nav>.active {
+    border-bottom: 1px solid #fff
+}
+
+.navbar-brand {
+    font-family: 'Allerta Stencil', sans-serif;
+    color: #83ff00
+}
+
+.navbar-brand:hover {
+    color: red
+}
+
+.left-side img {
+    padding-top: 100px
+}
+
+.nav-item>.nav-link :hover {
+    border: #83ff00;
+}
+
+.right-side {
+    padding-top: 150px
+}
+
+.right-side h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 2.4em;
+    text-align: center
+}
+
+.right-side p {
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold
+}
+
+.btn.order-button {
+    background: transparent;
+    border: 2px solid #83ff00;
+    color: #83ff00;
+    border-radius: 30%;
+    transition: 0.7s
+}
+
+.btn.order-button:hover {
+    border: 2px solid #ce0000;
+    color: #ce0000
+}
+
+/*! /.header && thanh navigation  */
+
+/*! thân web */
+
+#adidas-logo, #gucci-logo, #nike-logo {
+    width: 100%;
+}
+
+/* #adidas-logo {
+    -webkit-animation: adidas-logo-slide-right 1s ease-in-out both;
+    animation: adidas-logo-slide-right 1s ease-in-out both;
+}
+
+@-webkit-keyframes adidas-logo-slide-right {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    90% {
+        -webkit-transform: translateX(30px);
+        transform: translateX(30px);
+    }
+}
+
+@keyframes adidas-logo-slide-right {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    90% {
+        -webkit-transform: translateX(30px);
+        transform: translateX(30px);
+    }
+} */
+/*! /.thân web */
