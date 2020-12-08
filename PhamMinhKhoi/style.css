@@ -94,34 +94,4 @@ nav {
 
 /*! thân web */
 
-#adidas-logo, #gucci-logo, #nike-logo {
-    width: 100%;
-}
-
-/* #adidas-logo {
-    -webkit-animation: adidas-logo-slide-right 1s ease-in-out both;
-    animation: adidas-logo-slide-right 1s ease-in-out both;
-}
-
-@-webkit-keyframes adidas-logo-slide-right {
-    0% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-    90% {
-        -webkit-transform: translateX(30px);
-        transform: translateX(30px);
-    }
-}
-
-@keyframes adidas-logo-slide-right {
-    0% {
-        -webkit-transform: translateX(0);
-        transform: translateX(0);
-    }
-    90% {
-        -webkit-transform: translateX(30px);
-        transform: translateX(30px);
-    }
-} */
 /*! /.thân web */
