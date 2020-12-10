@@ -30,9 +30,14 @@ nav {
     background-color: #33CC33;
 }
 
-/* .navbar-nav>li>#nav-link:hover {
-    color: #ce0000;
-} */
+.navbar-toggler {
+    border: 1.5px solid white;
+}
+
+.bi-arrow-down-square {
+    filter: invert(96%) sepia(71%) saturate(5582%) hue-rotate(180deg) brightness(111%) contrast(105%);
+    margin-top: 0.7vh;
+}
 
 #navbarSupportedContent>.navbar-nav>.nav-item>.nav-link:hover {
     color: red;
@@ -93,5 +98,92 @@ nav {
 /*! /.header && thanh navigation  */
 
 /*! thân web */
+img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.margin_top_80 {
+    margin-top: 80px;
+}
+
+#head-title {
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+#single_service_area {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#adidas-logo {
+    max-width: 100%;
+    image-rendering: optimizeSpeed;
+    border: 1px solid black;
+}
+
+#nike-logo {
+    max-width: 100%;
+    image-rendering: optimizeSpeed;
+    border: 1px solid black;
+}
+
+#gucci-logo {
+    max-width: 100%;
+    image-rendering: optimizeSpeed;
+    border: 1px solid black;
+}
+
+#button-explore {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    
+}
+
+#button-explore {
+    display: inline-block;
+    min-width: 180px;
+    padding: .4em;
+    height: 45px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 1.125rem;
+    border-radius: 50px;
+    margin-top: 20px;
+    background-color: #F8F8FF;
+    transition: .5s;
+    border: 1px solid #000;
+    margin-bottom: 3vh;
+    vertical-align: middle;
+}
+
+@media (max-width: 1199px) {
+    body {
+        font-size: 1rem;
+    }
+}
+
+#button-explore, #button-explore:hover, #button-explore:active, #button-explore:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+#nike-logo {
+    max-width: 100%;
+}
+
+#nike-block {
+    margin-top: 80px;
+}
+
+#gucci-block {
+    margin-top: 80px;
+}
 
 /*! /.thân web */
