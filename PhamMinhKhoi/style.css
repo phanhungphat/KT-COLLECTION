@@ -361,3 +361,35 @@ footer {
 }
 
 /*! /.footer */
+
+/* ! button scroll to top */
+
+.back-to-top {
+    width: 60px;
+    line-height: 20px;
+    overflow: hidden;
+    z-index: 999;
+    /*! z-index là thiết lập thứ tự xếp chồng nhau của 1 thành phần vị trí*/
+    display: none;
+    cursor: pointer;
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+    position: fixed;
+    bottom: 30px;
+    right: 0;
+    background-color: #DDD;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    background-color: lightgray;
+    color: #000;
+}
+
+/* ! /.button scroll to top */
